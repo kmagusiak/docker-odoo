@@ -10,3 +10,7 @@
 	path = custom/mis-builder
 	url = git@github.com:OCA/mis-builder.git
 	branch = 15.0
+[submodule "custom/server-tools"]
+	path = custom/server-tools
+	url = git@github.com:OCA/server-tools.git
+	branch = 15.0
