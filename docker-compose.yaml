@@ -16,7 +16,8 @@ services:
 
     volumes:
       - odoo_data:${ODOO_DATA_DIR}
-      - ./custom:${ODOO_EXTRA_ADDONS}:cached
+      #- ./custom:${ODOO_EXTRA_ADDONS}:cached
+      - ./odoo:${ODOO_BASEPATH}
     command: ["odoo", "--dev", "xml"]
     depends_on:
       - db

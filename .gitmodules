@@ -1,3 +1,7 @@
 [submodule "custom/server-tools"]
 	path = custom/server-tools
 	url = git@github.com:OCA/server-tools.git
+[submodule "odoo"]
+	path = odoo
+	url = git@github.com:kmagusiak/odoo.git
+	branch = master
